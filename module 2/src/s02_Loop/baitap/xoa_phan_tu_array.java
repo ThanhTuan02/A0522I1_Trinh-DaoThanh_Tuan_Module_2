@@ -8,16 +8,16 @@ public class xoa_phan_tu_array {
         int x;
         int[] array = new int[10];
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhập số vào đây");
+        System.out.println("Nhập size của mảng");
         N = sc.nextInt();
         for (int i = 1; i <= N; i++) {
-            System.out.println("nhập index " + i);
+            System.out.println("nhập số vào mảng " + i);
             array[i] = sc.nextInt();
         }
         for (int i = 1; i <= N; i++) {
             System.out.println(array[i]);
         }
-        System.out.println("nhập vị trí cần xóa");
+        System.out.println("nhập số cần cần xóa");
         x = sc.nextInt();
         for (int j = 0; j < array.length; j++) {
             if (array[j] == x) {
